@@ -6,8 +6,10 @@ function fib(n) {
     let p = 1,
         c = 1;
 
+    let sum = 0;
+
     for (let i = 3; i <= n; i++) {
-        var sum = p + c;
+        sum = p + c;
         p = c;
         c = sum;
     }
