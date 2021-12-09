@@ -1,1 +1,1 @@
-# My-JS
+# Handwriting JavaScript
