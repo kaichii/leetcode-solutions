@@ -59,16 +59,20 @@
  * @return {number}
  */
 var lengthOfLongestSubstring = function (s) {
-  let ans = (start = end = 0);
+  let ans = (start = len = 0);
 
-  while (start < s.length && end < s.length) {
-    if (!s.substring(start, end).includes(s[end])) {
-      end++;
+  for (let i = 0; i < s.length; i++) {
+    const pI = s.indexOf(s[i], start);
+    // 有重复字符
+    if (pI >= 0 && pI < i) {
+      // start 移动到重复字符后 1 位
+      start = pI + 1;
+      len = i - pI;
     } else {
-      const index = s.substring(start, end).indexOf(s[end]);
-      start += index + 1;
+      // 没有重复字符
+      len++;
     }
-    ans = Math.max(ans, s.substring(start, end).length);
+    ans = Math.max(ans, len);
   }
 
   return ans;
