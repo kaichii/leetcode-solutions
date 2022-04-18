@@ -62,8 +62,8 @@ var maxArea = function (height) {
 
   let ans = 0;
 
-  while (s < height.length && e >= 0) {
-    ans = Math.max(ans, Math.abs(e - s) * Math.min(height[e], height[s]));
+  while (s < e) {
+    ans = Math.max(ans, (e - s) * Math.min(height[e], height[s]));
     if (height[e] > height[s]) {
       s++;
     } else {
