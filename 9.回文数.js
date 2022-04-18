@@ -66,6 +66,8 @@
  * @return {boolean}
  */
 var isPalindrome = function (x) {
+  if (Math.sign(x) === -1) return false;
+  
   const str = x.toString();
 
   if (str.length === 1) return true;
