@@ -90,35 +90,33 @@
  * @return {string}
  */
 var intToRoman = function (num) {
-  const dic = ['M', 'D', 'C', 'L', 'X', 'V', 'I'];
-  const units = [1000, 500, 100, 50, 10, 5, 1];
+  const map = [
+    [1000, 'M'],
+    [900, 'CM'],
+    [500, 'D'],
+    [400, 'CD'],
+    [100, 'C'],
+    [90, 'XC'],
+    [50, 'L'],
+    [40, 'XL'],
+    [10, 'X'],
+    [9, 'IX'],
+    [5, 'V'],
+    [4, 'IV'],
+    [1, 'I'],
+  ];
 
-  const ans = [];
+  let ans = '';
 
-  units.forEach((u, i) => {
-    const c = ~~(num / u);
-
-    console.log(u, i);
-
-    if (c > 0) {
-      if (i > 0 && i % 2 == 0) {
-        if (c === 4) {
-          ans.push(dic[i], dic[i - 1]);
-        } else if (c === 9) {
-          ans.push(dic[i], dic[i - 2]);
-        } else {
-          ans.push(...Array(c).fill(dic[i]));
-        }
-      } else {
-        ans.push(...Array(c).fill(dic[i]));
-      }
+  for (const [d, u] of map) {
+    while (num >= d) {
+      num -= d;
+      ans += u;
     }
 
-    num %= u;
-  });
+    if (num === 0) break;
+  }
 
-  return ans.join('');
+  return ans;
 };
-
-intToRoman(1994);
 // @lc code=end
