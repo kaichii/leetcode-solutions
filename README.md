@@ -1,7 +1,5 @@
 # Leetcode 题解
 
-## 已完成
-
 1. [x] [两数之和](https://leetcode-cn.com/problems/two-sum/description/)
 2. [x] [两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/)
 3. [x] [无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/)
@@ -16,3 +14,4 @@
 12. [x] [整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/description/)
 13. [x] [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/description/)
 14. [x] [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/description/)
+15. [x] [三数之和](https://leetcode-cn.com/problems/3sum/description/)
