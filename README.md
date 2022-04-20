@@ -2,7 +2,7 @@
 
 - [Leetcode 题解](#leetcode-题解)
   - [Tags](#tags)
-    - [Array](#array)
+    - [:pencil2: Array](#pencil2-array)
     - [Backtracking](#backtracking)
     - [Binary Indexed Tree](#binary-indexed-tree)
     - [Binary Search](#binary-search)
@@ -44,7 +44,7 @@
 
 ## Tags
 
-### Array
+### :pencil2: Array 
 
 - [x] [1.两数之和](./1.两数之和.js)
 - [x] [4.寻找两个正序数组的中位数](./4.寻找两个正序数组的中位数.js)
