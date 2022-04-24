@@ -38,7 +38,9 @@
 
 ### Bit Manipulation
 
-### Brainteaser
+### :pencil2: Brainteaser
+
+- [x] [292.nim-游戏](./292.nim-游戏.js)
 
 ### Breadth First Search
 
@@ -85,7 +87,9 @@
 
 ### Memoization
 
-### Minimax
+### :pencil2: Minimax
+
+- [x] [292.nim-游戏](./292.nim-游戏.js)
 
 ### Ordered Map
 
