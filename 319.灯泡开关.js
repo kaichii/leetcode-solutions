@@ -69,55 +69,73 @@
  */
 var bulbSwitch = function (n) {
   if (!n) return 0;
-  return test(n);
+
+  // console.log('1', test(1));
+  // console.log('2', test(2));
+  // console.log('3', test(3));
+  // console.log('8', test(8));
+  // console.log('9', test(9));
+  // console.log('10', test(10));
+  // console.log('11', test(11));
+  // console.log('12', test(12));
+  // console.log('13', test(13));
+  // console.log('14', test(14));
+  // console.log('15', test(15));
+  // console.log('16', test(16));
+  // console.log('17', test(17));
+  // console.log('18', test(18));
+  // console.log('19', test(19));
+  // console.log('24', test(24));
+  // console.log('25', test(25));
+  // console.log('26', test(26));
+
+  return ~~Math.sqrt(n);
 };
 
-function test(n) {
-  const board = Array.from({ length: n }, () => new Array(n).fill(0));
+// function test(n) {
+//   const board = Array.from({ length: n }, () => new Array(n).fill(false));
 
-  for (let i = 0; i < n; i++) {
-    // 第一轮
-    if (i === 0) {
-      board[i] = new Array(n).fill(7);
-    }
+//   for (let i = 0; i < n; i++) {
+//     // 第一轮
+//     if (i === 0) {
+//       board[i] = new Array(n).fill(true);
+//     }
 
-    // 第二轮
-    else if (i === 1) {
-      board[i] = [...board[i - 1]];
+//     // 第二轮
+//     else if (i === 1) {
+//       board[i] = [...board[i - 1]];
 
-      board[i].forEach((l, idx) => {
-        if (idx % (i + 1) === i) {
-          board[i][idx] = 0;
-        }
-      });
-    }
+//       board[i].forEach((l, idx) => {
+//         if (idx % (i + 1) === i) {
+//           board[i][idx] = false;
+//         }
+//       });
+//     }
 
-    // ...
-    else if (i > 1 && i < n - 1) {
-      board[i] = [...board[i - 1]];
+//     // ...
+//     else if (i > 1 && i < n - 1) {
+//       board[i] = [...board[i - 1]];
 
-      board[i].forEach((l, idx) => {
-        if (idx % (i + 1) === i) {
-          board[i][idx] = board[i][idx] ? 0 : 7;
-        }
-      });
-    } else {
-      board[i] = [...board[i - 1]];
+//       board[i].forEach((l, idx) => {
+//         if (idx % (i + 1) === i) {
+//           board[i][idx] = !board[i][idx];
+//         }
+//       });
+//     }
 
-      board[i][n - 1] = board[i][n - 1] ? 0 : 7;
-    }
-  }
+//     // 最后一轮
+//     else {
+//       board[i] = [...board[i - 1]];
 
-  console.table(board);
+//       board[i][n - 1] = !board[i][n - 1];
+//     }
+//   }
 
-  return board[n - 1].reduce((a, c) => {
-    if (c) {
-      a++;
-    }
-    return a;
-  }, 0);
-}
-
-test(15);
-
+//   return board[n - 1].reduce((a, c) => {
+//     if (c) {
+//       a++;
+//     }
+//     return a;
+//   }, 0);
+// }
 // @lc code=end
