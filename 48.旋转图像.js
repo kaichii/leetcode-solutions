@@ -55,9 +55,12 @@
 var rotate = function (matrix) {
   let n = matrix[0].length;
 
+  // 转就对了
   for (let i = 0; i < n / 2; i++) {
     for (let j = i; j < n - 1 - i; j++) {
-      // 转就对了
+      // 正中心元素不需要旋转
+      if (i === j && j === n / 2) break;
+
       const t = matrix[i][j];
 
       matrix[i][j] = matrix[n - 1 - j][i];
