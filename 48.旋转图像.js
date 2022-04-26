@@ -55,7 +55,20 @@
 var rotate = function (matrix) {
   let n = matrix[0].length;
 
-  // 转就对了
+  /**
+   *
+   * 当矩阵旋转时有 matrix[i][j] = matrix[n-1-j][i] 交换四次
+   *
+   *  i = i,j = j
+   *  1. matrix[i][j] = matrix[n - 1 - j][i]
+   *  i = n-1-j, j = i
+   *  2. matrix[n - 1 - j][i] = matrix[n - 1 - i][n - 1 - j]
+   *  i = n - 1 - i, j = n - 1 -j
+   *  3. matrix[n - 1 - i][n - 1 - j] = matrix[j][n - 1 - i]
+   *  i = j, j = n - 1 - i
+   *  4.  matrix[j][n - 1 - i] = matrix[i][j]
+   *
+   */
   for (let i = 0; i < n / 2; i++) {
     for (let j = i; j < n - 1 - i; j++) {
       // 正中心元素不需要旋转
