@@ -79,26 +79,28 @@ var isMatch = function (s, p) {
   //      2.1.3: 匹配 >= 2次: dp[i][j] = dp[i-1][j]
   //   2.2: else: dp[i][j] = dp[i][j-2]
 
-  const m = s.length,
-    n = p.length;
-
   s = ' ' + s;
   p = ' ' + p;
 
-  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(false));
+  const m = s.length,
+    n = p.length;
+
+  const dp = Array.from({ length: m }, () => new Array(n).fill(false));
 
   dp[0][0] = true;
 
-  for (let i = 1; i <= s.length; i++) {
-    for (let j = 1; j <= p.length; j++) {
+  for (let i = 0; i < s.length; i++) {
+    for (let j = 1; j < p.length; j++) {
       if (p[j] === '*') {
         dp[i][j] = dp[i][j - 2];
 
-        if (matches(s[i], p[j - 1])) {
-          dp[i][j] = dp[i - 1][j - 2] || dp[i - 1][j];
+        if (i > 0 && matches(s[i], p[j - 1])) {
+          dp[i][j] = dp[i - 1][j - 2] || dp[i - 1][j] || dp[i][j - 2];
         }
-      } else if (matches(s[i], p[j])) {
-        dp[i][j] = dp[i - 1][j - 1];
+      } else {
+        if (i > 0 && matches(s[i], p[j])) {
+          dp[i][j] = dp[i - 1][j - 1];
+        }
       }
     }
   }
