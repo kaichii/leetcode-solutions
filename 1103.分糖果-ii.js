@@ -69,13 +69,34 @@
  * @return {number[]}
  */
 var distributeCandies = function (candies, num_people) {
+  // 等差数列求和
+
   const ans = new Array(num_people).fill(0);
 
-  while (candies > 0) {
-    // for (let i = 0; i < ans.length; i++) {
-    //   if(candies  > )
-    // }
+  // 分发到完整糖的人数
+  const people = ~~(Math.sqrt(2 * candies + 0.25) - 0.5);
+
+  // 完整发糖轮数
+  const round = ~~(people / num_people);
+
+  // 剩余糖果
+  const remaining = candies - (people * (people + 1)) / 2;
+
+  // 获得剩余糖果的人
+  const r_people = people % num_people;
+
+  for (let i = 0; i < num_people; i++) {
+    // 完整获得完整数量糖果的人
+    ans[i] = ((2 * i + 2 + (round - 1) * num_people) / 2) * round;
+
+    // 额外获得完整数量糖果的人
+    if (i < r_people) {
+      ans[i] += i + 1 + round * num_people;
+    }
   }
+
+  // 获得剩余数量糖果的人
+  ans[r_people] += remaining;
 
   return ans;
 };
