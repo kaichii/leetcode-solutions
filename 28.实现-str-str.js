@@ -79,7 +79,6 @@ var strStr = function (haystack, needle) {
           ans = i;
           break loop;
         }
-        continue;
       } else {
         break;
       }
