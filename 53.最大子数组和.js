@@ -62,6 +62,7 @@
  * @return {number}
  */
 var maxSubArray = function (nums) {
+  // 这居然是简单题！
   let prev = 0,
     max = nums[0];
 
