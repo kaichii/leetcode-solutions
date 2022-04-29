@@ -72,21 +72,18 @@ var strStr = function (haystack, needle) {
 
   let ans;
 
-  let i = 0;
-
-  while (i < haystack.length) {
+  loop: for (let i = 0; i < haystack.length; i++) {
     for (let j = 0; j < needle.length; j++) {
-      console.log(i, j, haystack[i + j], needle[j]);
       if (haystack[i + j] === needle[j]) {
         if (j === needle.length - 1) {
           ans = i;
+          break loop;
         }
+        continue;
       } else {
-        i = i + j;
         break;
       }
     }
-    i++;
   }
 
   return ans ?? -1;
