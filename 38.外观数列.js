@@ -85,9 +85,11 @@
  * @return {string}
  */
 var countAndSay = function (n) {
-  if (n <= 1) return '1';
+  if (n <= 1) {
+    return '1';
+  }
 
-  const str = countAndSay(n - 1)
+  return countAndSay(n - 1)
     .split('')
     .reduce((a, c) => {
       if (!a[a.length - 1] || !a[a.length - 1].includes(c)) {
@@ -97,11 +99,10 @@ var countAndSay = function (n) {
       }
 
       return a;
-    }, []);
-
-  return str.reduce((a, c) => {
-    a += `${c.length}${c[0]}`;
-    return a;
-  }, '');
+    }, [])
+    .reduce((a, c) => {
+      a += `${c.length}${c[0]}`;
+      return a;
+    }, '');
 };
 // @lc code=end
