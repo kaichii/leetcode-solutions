@@ -7,9 +7,11 @@
   <img alt="Leetcode Ranking" src="https://leetcode-badge.haozibi.dev/v1cn/ranking/kaichi.svg"/>
 </p>
 
-## Activity
+## 提交记录
 
 <img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
+
+## 题目
 
 <details>
   <summary>
