@@ -282,10 +282,9 @@
 
 <details>
   <summary>
-  <h3>Segment Tree :pencil:</h3>
+  <h3>Segment Tree</h3>
   </summary>
   
-  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
@@ -348,9 +347,10 @@
 
 <details>
   <summary>
-  <h3>Tree</h3>
+  <h3>Tree :pencil:</h3>
   </summary>
   
+  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
