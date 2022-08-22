@@ -205,6 +205,7 @@
 - [x] [9.回文数](./solutions/9.回文数.js)
 - [x] [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)
 - [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
+- [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
 - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
 </details>
 
@@ -315,6 +316,7 @@
   - [x] [22.括号生成](./solutions/22.括号生成.js)
   - [x] [28.实现-str-str](./solutions/28.实现-str-str.js)
   - [x] [38.外观数列](./solutions/38.外观数列.js)
+  - [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
   - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
   - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
   - [x] [58.最后一个单词的长度](./solutions/58.最后一个单词的长度.js)
