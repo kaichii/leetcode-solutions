@@ -176,6 +176,7 @@
 - [x] [18.四数之和](./solutions/18.四数之和.js)
 - [x] [36.有效的数独](./solutions/36.有效的数独.js)
 - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
+- [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
@@ -281,9 +282,10 @@
 
 <details>
   <summary>
-  <h3>Segment Tree</h3>
+  <h3>Segment Tree :pencil:</h3>
   </summary>
   
+  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
@@ -309,6 +311,7 @@
   
   - [x] [20.有效的括号](./solutions/20.有效的括号.js)
   - [x] [42.接雨水](./solutions/42.接雨水.js)
+  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
