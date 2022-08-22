@@ -1,4 +1,17 @@
-## Leetcode 题解
+<h1 align="center">Leetcode 题解</h1>
+
+<p align="center">
+  <img alt="Leetcode Solved" src="https://leetcode-badge.haozibi.dev/v1cn/solved/kaichi.svg" />
+  <img alt="Leetcode Accepted" src="https://leetcode-badge.haozibi.dev/v1cn/accepted/kaichi.svg" />
+  <img alt="Leetcode Accepted Rate" src="https://leetcode-badge.haozibi.dev/v1cn/accepted-rate/kaichi.svg" />
+  <img alt="Leetcode Ranking" src="https://leetcode-badge.haozibi.dev/v1cn/ranking/kaichi.svg"/>
+</p>
+
+## 提交记录
+
+<img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
+
+## 题目
 
 <details>
   <summary>
