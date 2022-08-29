@@ -102,17 +102,19 @@
 
 <details>
   <summary>
-  <h3>Breadth First Search</h3>
+  <h3>Breadth First Search :pencil:</h3>
   </summary>
   
+  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
 </details>
 
 <details>
   <summary>
   <h3>Depth First Search :pencil:</h3>
   </summary>
-  
-  - [x] [100.相同的树](./solutions/100.相同的树.js)
+
+- [x] [100.相同的树](./solutions/100.相同的树.js)
+- [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
 </details>
 
 <details>
@@ -353,6 +355,7 @@
   
   - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
   - [x] [100.相同的树](./solutions/100.相同的树.js)
+  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
 </details>
 
 <details>
