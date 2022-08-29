@@ -115,6 +115,7 @@
 
 - [x] [100.相同的树](./solutions/100.相同的树.js)
 - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
+- [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
 </details>
 
 <details>
@@ -356,6 +357,7 @@
   - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
   - [x] [100.相同的树](./solutions/100.相同的树.js)
   - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
+  - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
 </details>
 
 <details>
