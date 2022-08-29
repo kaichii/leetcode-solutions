@@ -208,6 +208,7 @@
 - [x] [21.合并两个有序链表](./solutions/21.合并两个有序链表.js)
 - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
 - [x] [24.两两交换链表中的节点](./solutions/24.两两交换链表中的节点.js)
+- [x] [86.分隔链表](./solutions/86.分隔链表.js)
 - [x] [203.移除链表元素](./solutions/203.移除链表元素.js)
 - [x] [206.反转链表](./solutions/206.反转链表.js)
 </details>
@@ -381,6 +382,7 @@
   - [x] [27.移除元素](./solutions/27.移除元素.js)
   - [x] [28.实现-str-str](./solutions/28.实现-str-str.js)
   - [x] [42.接雨水](./solutions/42.接雨水.js)
+  - [x] [86.分隔链表](./solutions/86.分隔链表.js)
 </details>
 
 <details>
