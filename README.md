@@ -211,7 +211,8 @@
 - [x] [83.删除排序链表中的重复元素](./solutions/83.删除排序链表中的重复元素.js)
 - [x] [86.分隔链表](./solutions/86.分隔链表.js)
 - [x] [141.环形链表](./solutions/141.环形链表.js)
-- [x] [142.142.环形链表-ii](./solutions/142.环形链表-ii.js)
+- [x] [142.环形链表-ii](./solutions/142.环形链表-ii.js)
+- [x] [160.相交链表](./solutions/160.相交链表.js)
 - [x] [203.移除链表元素](./solutions/203.移除链表元素.js)
 - [x] [206.反转链表](./solutions/206.反转链表.js)
 </details>
@@ -392,7 +393,7 @@
   - [x] [42.接雨水](./solutions/42.接雨水.js)
   - [x] [86.分隔链表](./solutions/86.分隔链表.js)
   - [x] [141.环形链表](./solutions/141.环形链表.js)
-  - [x] [142.142.环形链表-ii](./solutions/142.环形链表-ii.js)
+  - [x] [142.环形链表-ii](./solutions/142.环形链表-ii.js)
 </details>
 
 <details>
