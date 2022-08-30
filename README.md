@@ -316,6 +316,7 @@
   - [x] [20.有效的括号](./solutions/20.有效的括号.js)
   - [x] [42.接雨水](./solutions/42.接雨水.js)
   - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
+  - [x] [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)
 </details>
 
 <details>
@@ -359,6 +360,7 @@
   - [x] [100.相同的树](./solutions/100.相同的树.js)
   - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
   - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
+  - [x] [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)
 </details>
 
 <details>
