@@ -246,9 +246,10 @@
 
 <details>
   <summary>
-  <h3>Ordered Map</h3>
+  <h3>Ordered Map :pencil:</h3>
   </summary>
   
+  - [x] [876.链表的中间结点](./solutions/876.链表的中间结点.js)
 </details>
 
 <details>
