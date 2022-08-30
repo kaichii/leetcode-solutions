@@ -69,11 +69,11 @@
   <summary>
   <h3>Binary Search :pencil:</h3>
   </summary>
-
-- [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
-- [x] [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)
-- [x] [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js)
-- [x] [35.搜索插入位置](./solutions/35.搜索插入位置.js)
+  
+  - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
+  - [x] [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)
+  - [x] [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js)
+  - [x] [35.搜索插入位置](./solutions/35.搜索插入位置.js)
 </details>
 
 <details>
@@ -112,10 +112,10 @@
   <summary>
   <h3>Depth First Search :pencil:</h3>
   </summary>
-
-- [x] [100.相同的树](./solutions/100.相同的树.js)
-- [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
-- [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
+  
+  - [x] [100.相同的树](./solutions/100.相同的树.js)
+  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
+  - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
 </details>
 
 <details>
@@ -175,12 +175,12 @@
   <h3>Hash Table :pencil:</h3>
   </summary>
   
-- [x] [1.两数之和](./solutions/1.两数之和.js)
-- [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-- [x] [18.四数之和](./solutions/18.四数之和.js)
-- [x] [36.有效的数独](./solutions/36.有效的数独.js)
-- [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
-- [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
+  - [x] [1.两数之和](./solutions/1.两数之和.js)
+  - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
+  - [x] [18.四数之和](./solutions/18.四数之和.js)
+  - [x] [36.有效的数独](./solutions/36.有效的数独.js)
+  - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
+  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
 </details>
 
 <details>
@@ -188,7 +188,7 @@
   <h3>Heap :pencil:</h3>
   </summary>
   
-- [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
+  - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
 </details>
 
 <details>
@@ -220,14 +220,14 @@
   <h3>Math :pencil:</h3>
   </summary>
   
-- [x] [2.两数相加](./solutions/2.两数相加.js)
-- [x] [7.整数反转](./solutions/7.整数反转.js)
-- [x] [8.字符串转换整数 (atoi)](./solutions/8.字符串转换整数-atoi.js)
-- [x] [9.回文数](./solutions/9.回文数.js)
-- [x] [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)
-- [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
-- [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
-- [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
+  - [x] [2.两数相加](./solutions/2.两数相加.js)
+  - [x] [7.整数反转](./solutions/7.整数反转.js)
+  - [x] [8.字符串转换整数 (atoi)](./solutions/8.字符串转换整数-atoi.js)
+  - [x] [9.回文数](./solutions/9.回文数.js)
+  - [x] [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)
+  - [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
+  - [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
+  - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
 </details>
 
 <details>
@@ -307,8 +307,8 @@
   <summary>
   <h3>Sort :pencil:</h3>
   </summary>
-
-- [x] [56.合并区间](./solutions/56.合并区间.js)
+  
+  - [x] [56.合并区间](./solutions/56.合并区间.js)
 </details>
 
 <details>
