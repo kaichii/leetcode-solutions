@@ -79,17 +79,17 @@ var removeNthFromEnd = function (head, n) {
 };
 
 var findNthFromEnd = function (head, n) {
-  let quick = head;
+  let fast = head;
 
   for (let i = 0; i < n; i++) {
-    quick = quick.next;
+    fast = fast.next;
   }
 
   let slow = head;
 
-  while (quick) {
+  while (fast) {
     slow = slow.next;
-    quick = quick.next;
+    fast = fast.next;
   }
 
   return slow;
