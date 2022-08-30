@@ -210,6 +210,7 @@
 - [x] [24.两两交换链表中的节点](./solutions/24.两两交换链表中的节点.js)
 - [x] [83.删除排序链表中的重复元素](./solutions/83.删除排序链表中的重复元素.js)
 - [x] [86.分隔链表](./solutions/86.分隔链表.js)
+- [x] [141.环形链表](./solutions/141.环形链表.js)
 - [x] [203.移除链表元素](./solutions/203.移除链表元素.js)
 - [x] [206.反转链表](./solutions/206.反转链表.js)
 </details>
@@ -389,6 +390,7 @@
   - [x] [28.实现-str-str](./solutions/28.实现-str-str.js)
   - [x] [42.接雨水](./solutions/42.接雨水.js)
   - [x] [86.分隔链表](./solutions/86.分隔链表.js)
+  - [x] [141.环形链表](./solutions/141.环形链表.js)
 </details>
 
 <details>
