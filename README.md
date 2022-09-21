@@ -13,13 +13,12 @@
 
 ## 题目
 
-<details>
-  <summary>
-  <h3>Array :pencil:</h3>
-  </summary>
-  
-  - [x] [1.两数之和](./solutions/1.两数之和.js)
-  - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
+| Solution                              | Link                                                            | Level |
+| ------------------------------------- | --------------------------------------------------------------- | ----- |
+| [两数之和](./solutions/1.两数之和.js) | [Source](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
+
+
+ - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
   - [x] [11.盛最多水的容器](./solutions/11.盛最多水的容器.js)
   - [x] [15.三数之和](./solutions/15.三数之和.js)
   - [x] [16.最接近的三数之和](./solutions/16.最接近的三数之和.js)
@@ -43,14 +42,8 @@
   - [x] [66.加一](./solutions/66.加一.js)
   - [x] [105.从前序与中序遍历序列构造二叉树](./solutions/105.从前序与中序遍历序列构造二叉树.js)
   - [x] [106.从中序与后序遍历序列构造二叉树](./solutions/106.从中序与后序遍历序列构造二叉树.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Backtracking :pencil:</h3>
-  </summary>
-  
-  - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
+ - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
   - [x] [17.电话号码的字母组合](./solutions/17.电话号码的字母组合.js)
   - [x] [22.括号生成](./solutions/22.括号生成.js)
   - [x] [39.组合总和](./solutions/39.组合总和.js)
@@ -58,68 +51,24 @@
   - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
   - [x] [46.全排列](./solutions/46.全排列.js)
   - [x] [47.全排列-ii](./solutions/47.全排列-ii.js)
-</details>
-
-<details>
-  <summary>
-  <h3>Binary Indexed Tree</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Binary Search :pencil:</h3>
-  </summary>
+  - [x] [889.根据前序和后序遍历构造二叉树](./solutions/889.根据前序和后序遍历构造二叉树.js)
 
 - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
 - [x] [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)
 - [x] [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js)
 - [x] [35.搜索插入位置](./solutions/35.搜索插入位置.js)
 - [x] [222.完全二叉树的节点个数](./solutions/222.完全二叉树的节点个数.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Binary Search Tree</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Bit Manipulation</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Brainteaser :pencil:</h3>
-  </summary>
-  
-  - [x] [292.nim-游戏](./solutions/292.nim-游戏.js)
+ - [x] [292.nim-游戏](./solutions/292.nim-游戏.js)
   - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
   - [x] [1103.分糖果-ii](./solutions/1103.分糖果-ii.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Breadth First Search :pencil:</h3>
-  </summary>
-  
   - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
   - [x] [102.二叉树的层序遍历](./solutions/102.二叉树的层序遍历.js)
   - [x] [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)
   - [x] [107.二叉树的层序遍历-ii](./solutions/107.二叉树的层序遍历-ii.js)
   - [x] [111.二叉树的最小深度](./solutions/111.二叉树的最小深度.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Depth First Search :pencil:</h3>
-  </summary>
-  
   - [x] [100.相同的树](./solutions/100.相同的树.js)
   - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
   - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
@@ -134,66 +83,21 @@
   - [x] [124.二叉树中的最大路径和](./solutions/124.二叉树中的最大路径和.js)
   - [x] [129.求根节点到叶节点数字之和](./solutions/129.求根节点到叶节点数字之和.js)
   - [x] [257.二叉树的所有路径](./solutions/257.二叉树的所有路径.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Design</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Divide And Conquer :pencil:</h3>
-  </summary>
-  
-  - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
+ - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
   - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
   - [x] [53.最大子数组和](./solutions/53.最大子数组和.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Dynamic Programming :pencil:</h3>
-  </summary>
-  
   - [x] [5.最长回文子串](./solutions/5.最长回文子串.js)
   - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
   - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
   - [x] [53.最大子数组和](./solutions/53.最大子数组和.js)
   - [x] [70.爬楼梯](./solutions/70.爬楼梯.js)
   - [x] [322.零钱兑换](./solutions/322.零钱兑换.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Geometry</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Graph</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Greedy :pencil:</h3>
-  </summary>
-  
-  - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
+ - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
   - [x] [45.跳跃游戏-ii](./solutions/45.跳跃游戏-ii.js)
   - [x] [55.跳跃游戏](./solutions/55.跳跃游戏.js)
-</details>
-
-<details>
-  <summary>
-  <h3>Hash Table :pencil:</h3>
-  </summary>
   
   - [x] [1.两数之和](./solutions/1.两数之和.js)
   - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
@@ -201,27 +105,10 @@
   - [x] [36.有效的数独](./solutions/36.有效的数独.js)
   - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
   - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Heap :pencil:</h3>
-  </summary>
   
   - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Line Sweep</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Linked List :pencil:</h3>
-  </summary>
 
 - [x] [2.两数相加](./solutions/2.两数相加.js)
 - [x] [19.删除链表的倒数第-n-个结点](./solutions/19.删除链表的倒数第-n-个结点.js)
@@ -235,12 +122,7 @@
 - [x] [160.相交链表](./solutions/160.相交链表.js)
 - [x] [203.移除链表元素](./solutions/203.移除链表元素.js)
 - [x] [206.反转链表](./solutions/206.反转链表.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Math :pencil:</h3>
-  </summary>
   
   - [x] [2.两数相加](./solutions/2.两数相加.js)
   - [x] [7.整数反转](./solutions/7.整数反转.js)
@@ -250,93 +132,22 @@
   - [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
   - [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
   - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Memoization</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Minimax :pencil:</h3>
-  </summary>
   
   - [x] [292.nim-游戏](./solutions/292.nim-游戏.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Ordered Map :pencil:</h3>
-  </summary>
   
   - [x] [876.链表的中间结点](./solutions/876.链表的中间结点.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Queue</h3>
-  </summary>
-  
-</details>
 
-<details>
-  <summary>
-  <h3>Random</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Recursion</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Rejection Sampling</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Reservoir Sampling</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Segment Tree</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Sliding Window :pencil:</h3>
-  </summary>
   
   - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Sort :pencil:</h3>
-  </summary>
   
   - [x] [56.合并区间](./solutions/56.合并区间.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Stack :pencil:</h3>
-  </summary>
+
+
   
   - [x] [20.有效的括号](./solutions/20.有效的括号.js)
   - [x] [42.接雨水](./solutions/42.接雨水.js)
@@ -344,12 +155,7 @@
   - [x] [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)
   - [x] [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)
   - [x] [145.二叉树的后序遍历](./solutions/145.二叉树的后序遍历.js)
-</details>
 
-<details>
-  <summary>
-  <h3>String :pencil:</h3>
-  </summary>
   
   - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
   - [x] [5.最长回文子串](./solutions/5.最长回文子串.js)
@@ -371,19 +177,7 @@
   - [x] [344.反转字符串](./solutions/344.反转字符串.js)
   - [x] [345.反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)
   - [x] [415.字符串相加](./solutions/415.字符串相加.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Topological Sort</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Tree :pencil:</h3>
-  </summary>
   
   - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
   - [x] [100.相同的树](./solutions/100.相同的树.js)
@@ -410,20 +204,10 @@
   - [x] [404.左叶子之和](./solutions/404.左叶子之和.js)
   - [x] [543.二叉树的直径](./solutions/543.二叉树的直径.js)
   - [x] [654.最大二叉树](./solutions/654.最大二叉树.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Trie</h3>
-  </summary>
-  
-</details>
 
-<details>
-  <summary>
-  <h3>Two Pointers :pencil:</h3>
-  </summary>
-  
+
+
   - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
   - [x] [11.盛最多水的容器](./solutions/11.盛最多水的容器.js)
   - [x] [15.三数之和](./solutions/15.三数之和.js)
@@ -438,18 +222,4 @@
   - [x] [142.环形链表-ii](./solutions/142.环形链表-ii.js)
   - [x] [344.反转字符串](./solutions/344.反转字符串.js)
   - [x] [345.反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)
-</details>
 
-<details>
-  <summary>
-  <h3>Union Find</h3>
-  </summary>
-  
-</details>
-
-<details>
-  <summary>
-  <h3>Unknow</h3>
-  </summary>
-  
-</details>
