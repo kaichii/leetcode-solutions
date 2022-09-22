@@ -7,262 +7,99 @@
   <img alt="Leetcode Ranking" src="https://leetcode-badge.haozibi.dev/v1cn/ranking/kaichi.svg"/>
 </p>
 
-## 提交记录
-
 <img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
 
-## 题目
-
-| Solution                              | Source                                                        | Level |
-| ------------------------------------- | ------------------------------------------------------------- | ----- |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-| [两数之和](./solutions/1.两数之和.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/) | Easy  |
-
-
- - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
-  - [x] [11.盛最多水的容器](./solutions/11.盛最多水的容器.js)
-  - [x] [15.三数之和](./solutions/15.三数之和.js)
-  - [x] [16.最接近的三数之和](./solutions/16.最接近的三数之和.js)
-  - [x] [18.四数之和](./solutions/18.四数之和.js)
-  - [x] [27.移除元素](./solutions/27.移除元素.js)
-  - [x] [31.下一个排列](./solutions/31.下一个排列.js)
-  - [x] [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)
-  - [x] [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js)
-  - [x] [35.搜索插入位置](./solutions/35.搜索插入位置.js)
-  - [x] [39.组合总和](./solutions/39.组合总和.js)
-  - [x] [40.组合总和-ii](./solutions/40.组合总和-ii.js)
-  - [x] [41.缺失的第一个正数](./solutions/41.缺失的第一个正数.js)
-  - [x] [42.接雨水](./solutions/42.接雨水.js)
-  - [x] [45.跳跃游戏-ii](./solutions/45.跳跃游戏-ii.js)
-  - [x] [48.旋转图像](./solutions/48.旋转图像.js)
-  - [x] [53.最大子数组和](./solutions/53.最大子数组和.js)
-  - [x] [54.螺旋矩阵](./solutions/54.螺旋矩阵.js)
-  - [x] [55.跳跃游戏](./solutions/55.跳跃游戏.js)
-  - [x] [56.合并区间](./solutions/56.合并区间.js)
-  - [x] [59.螺旋矩阵-ii](./solutions/59.螺旋矩阵-ii.js)
-  - [x] [66.加一](./solutions/66.加一.js)
-  - [x] [105.从前序与中序遍历序列构造二叉树](./solutions/105.从前序与中序遍历序列构造二叉树.js)
-  - [x] [106.从中序与后序遍历序列构造二叉树](./solutions/106.从中序与后序遍历序列构造二叉树.js)
-
- - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
-  - [x] [17.电话号码的字母组合](./solutions/17.电话号码的字母组合.js)
-  - [x] [22.括号生成](./solutions/22.括号生成.js)
-  - [x] [39.组合总和](./solutions/39.组合总和.js)
-  - [x] [40.组合总和-ii](./solutions/40.组合总和-ii.js)
-  - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
-  - [x] [46.全排列](./solutions/46.全排列.js)
-  - [x] [47.全排列-ii](./solutions/47.全排列-ii.js)
-  - [x] [889.根据前序和后序遍历构造二叉树](./solutions/889.根据前序和后序遍历构造二叉树.js)
-
-- [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
-- [x] [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)
-- [x] [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js)
-- [x] [35.搜索插入位置](./solutions/35.搜索插入位置.js)
-- [x] [222.完全二叉树的节点个数](./solutions/222.完全二叉树的节点个数.js)
-
- - [x] [292.nim-游戏](./solutions/292.nim-游戏.js)
-  - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
-  - [x] [1103.分糖果-ii](./solutions/1103.分糖果-ii.js)
-
-  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
-  - [x] [102.二叉树的层序遍历](./solutions/102.二叉树的层序遍历.js)
-  - [x] [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)
-  - [x] [107.二叉树的层序遍历-ii](./solutions/107.二叉树的层序遍历-ii.js)
-  - [x] [111.二叉树的最小深度](./solutions/111.二叉树的最小深度.js)
-
-  - [x] [100.相同的树](./solutions/100.相同的树.js)
-  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
-  - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
-  - [x] [105.从前序与中序遍历序列构造二叉树](./solutions/105.从前序与中序遍历序列构造二叉树.js)
-  - [x] [106.从中序与后序遍历序列构造二叉树](./solutions/106.从中序与后序遍历序列构造二叉树.js)
-  - [x] [110.平衡二叉树](./solutions/110.平衡二叉树.js)
-  - [x] [111.二叉树的最小深度](./solutions/111.二叉树的最小深度.js)
-  - [x] [112.路径总和](./solutions/112.路径总和.js)
-  - [x] [113.路径总和-ii](./solutions/113.路径总和-ii.js)
-  - [x] [114.二叉树展开为链表](./solutions/114.二叉树展开为链表.js)
-  - [x] [116.填充每个节点的下一个右侧节点指针](./solutions/116.填充每个节点的下一个右侧节点指针.js)
-  - [x] [124.二叉树中的最大路径和](./solutions/124.二叉树中的最大路径和.js)
-  - [x] [129.求根节点到叶节点数字之和](./solutions/129.求根节点到叶节点数字之和.js)
-  - [x] [257.二叉树的所有路径](./solutions/257.二叉树的所有路径.js)
-
- - [x] [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)
-  - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
-  - [x] [53.最大子数组和](./solutions/53.最大子数组和.js)
-
-  - [x] [5.最长回文子串](./solutions/5.最长回文子串.js)
-  - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
-  - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
-  - [x] [53.最大子数组和](./solutions/53.最大子数组和.js)
-  - [x] [70.爬楼梯](./solutions/70.爬楼梯.js)
-  - [x] [322.零钱兑换](./solutions/322.零钱兑换.js)
-
- - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
-  - [x] [45.跳跃游戏-ii](./solutions/45.跳跃游戏-ii.js)
-  - [x] [55.跳跃游戏](./solutions/55.跳跃游戏.js)
-  
-  - [x] [1.两数之和](./solutions/1.两数之和.js)
-  - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-  - [x] [18.四数之和](./solutions/18.四数之和.js)
-  - [x] [36.有效的数独](./solutions/36.有效的数独.js)
-  - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
-  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
-
-  
-  - [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
-
-
-- [x] [2.两数相加](./solutions/2.两数相加.js)
-- [x] [19.删除链表的倒数第-n-个结点](./solutions/19.删除链表的倒数第-n-个结点.js)
-- [x] [21.合并两个有序链表](./solutions/21.合并两个有序链表.js)
-- [x] [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)
-- [x] [24.两两交换链表中的节点](./solutions/24.两两交换链表中的节点.js)
-- [x] [83.删除排序链表中的重复元素](./solutions/83.删除排序链表中的重复元素.js)
-- [x] [86.分隔链表](./solutions/86.分隔链表.js)
-- [x] [141.环形链表](./solutions/141.环形链表.js)
-- [x] [142.环形链表-ii](./solutions/142.环形链表-ii.js)
-- [x] [160.相交链表](./solutions/160.相交链表.js)
-- [x] [203.移除链表元素](./solutions/203.移除链表元素.js)
-- [x] [206.反转链表](./solutions/206.反转链表.js)
-
-  
-  - [x] [2.两数相加](./solutions/2.两数相加.js)
-  - [x] [7.整数反转](./solutions/7.整数反转.js)
-  - [x] [8.字符串转换整数 (atoi)](./solutions/8.字符串转换整数-atoi.js)
-  - [x] [9.回文数](./solutions/9.回文数.js)
-  - [x] [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)
-  - [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
-  - [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
-  - [x] [319.灯泡开关](./solutions/319.灯泡开关.js)
-
-  
-  - [x] [292.nim-游戏](./solutions/292.nim-游戏.js)
-
-  
-  - [x] [876.链表的中间结点](./solutions/876.链表的中间结点.js)
-
-
-  
-  - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-
-  
-  - [x] [56.合并区间](./solutions/56.合并区间.js)
-
-
-
-  
-  - [x] [20.有效的括号](./solutions/20.有效的括号.js)
-  - [x] [42.接雨水](./solutions/42.接雨水.js)
-  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
-  - [x] [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)
-  - [x] [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)
-  - [x] [145.二叉树的后序遍历](./solutions/145.二叉树的后序遍历.js)
-
-  
-  - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-  - [x] [5.最长回文子串](./solutions/5.最长回文子串.js)
-  - [x] [6.Z 字形变换](./solutions/6.z-字形变换.js)
-  - [x] [8.字符串转换整数 (atoi)](./solutions/8.字符串转换整数-atoi.js)
-  - [x] [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)
-  - [x] [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)
-  - [x] [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)
-  - [x] [14.最长公共前缀](./solutions/14.最长公共前缀.js)
-  - [x] [17.电话号码的字母组合](./solutions/17.电话号码的字母组合.js)
-  - [x] [20.有效的括号](./solutions/20.有效的括号.js)
-  - [x] [22.括号生成](./solutions/22.括号生成.js)
-  - [x] [28.实现-str-str](./solutions/28.实现-str-str.js)
-  - [x] [38.外观数列](./solutions/38.外观数列.js)
-  - [x] [43.字符串相乘](./solutions/43.字符串相乘.js)
-  - [x] [44.通配符匹配](./solutions/44.通配符匹配.js)
-  - [x] [49.字母异位词分组](./solutions/49.字母异位词分组.js)
-  - [x] [58.最后一个单词的长度](./solutions/58.最后一个单词的长度.js)
-  - [x] [344.反转字符串](./solutions/344.反转字符串.js)
-  - [x] [345.反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)
-  - [x] [415.字符串相加](./solutions/415.字符串相加.js)
-
-  
-  - [x] [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)
-  - [x] [100.相同的树](./solutions/100.相同的树.js)
-  - [x] [101.对称二叉树](./solutions/101.对称二叉树.js)
-  - [x] [102.二叉树的层序遍历](./solutions/102.二叉树的层序遍历.js)
-  - [x] [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)
-  - [x] [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)
-  - [x] [105.从前序与中序遍历序列构造二叉树](./solutions/105.从前序与中序遍历序列构造二叉树.js)
-  - [x] [106.从中序与后序遍历序列构造二叉树](./solutions/106.从中序与后序遍历序列构造二叉树.js)
-  - [x] [107.二叉树的层序遍历-ii](./solutions/107.二叉树的层序遍历-ii.js)
-  - [x] [110.平衡二叉树](./solutions/110.平衡二叉树.js)
-  - [x] [111.二叉树的最小深度](./solutions/111.二叉树的最小深度.js)
-  - [x] [112.路径总和](./solutions/112.路径总和.js)
-  - [x] [113.路径总和-ii](./solutions/113.路径总和-ii.js)
-  - [x] [114.二叉树展开为链表](./solutions/114.二叉树展开为链表.js)
-  - [x] [116.填充每个节点的下一个右侧节点指针](./solutions/116.填充每个节点的下一个右侧节点指针.js)
-  - [x] [124.二叉树中的最大路径和](./solutions/124.二叉树中的最大路径和.js)
-  - [x] [129.求根节点到叶节点数字之和](./solutions/129.求根节点到叶节点数字之和.js)
-  - [x] [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)
-  - [x] [145.二叉树的后序遍历](./solutions/145.二叉树的后序遍历.js)
-  - [x] [222.完全二叉树的节点个数](./solutions/222.完全二叉树的节点个数.js)
-  - [x] [226.翻转二叉树](./solutions/226.翻转二叉树.js)
-  - [x] [257.二叉树的所有路径](./solutions/257.二叉树的所有路径.js)
-  - [x] [404.左叶子之和](./solutions/404.左叶子之和.js)
-  - [x] [543.二叉树的直径](./solutions/543.二叉树的直径.js)
-  - [x] [654.最大二叉树](./solutions/654.最大二叉树.js)
-
-
-
-
-  - [x] [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)
-  - [x] [11.盛最多水的容器](./solutions/11.盛最多水的容器.js)
-  - [x] [15.三数之和](./solutions/15.三数之和.js)
-  - [x] [16.最接近的三数之和](./solutions/16.最接近的三数之和.js)
-  - [x] [18.四数之和](./solutions/18.四数之和.js)
-  - [x] [19.删除链表的倒数第-n-个结点](./solutions/19.删除链表的倒数第-n-个结点.js)
-  - [x] [27.移除元素](./solutions/27.移除元素.js)
-  - [x] [28.实现-str-str](./solutions/28.实现-str-str.js)
-  - [x] [42.接雨水](./solutions/42.接雨水.js)
-  - [x] [86.分隔链表](./solutions/86.分隔链表.js)
-  - [x] [141.环形链表](./solutions/141.环形链表.js)
-  - [x] [142.环形链表-ii](./solutions/142.环形链表-ii.js)
-  - [x] [344.反转字符串](./solutions/344.反转字符串.js)
-  - [x] [345.反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)
-
+| Solution                                                                                                      | Source                                                                                               | Level          |
+| ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------- |
+| [1.两数之和](./solutions/1.两数之和.js)                                                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | :green_circle: |
+| [2.两数相加](./solutions/2.两数相加.js)                                                                       | [题目](https://leetcode-cn.com/problems/add-two-numbers/description/)                                | 🟠              |
+| [3.无重复字符的最长子串](./solutions/3.无重复字符的最长子串.js)                                               | [题目](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/description/) | 🟠              |
+| [4.寻找两个正序数组的中位数](./solutions/4.寻找两个正序数组的中位数.js)                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [5.最长回文子串](./solutions/5.最长回文子串.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [6.Z 字形变换](./solutions/6.z-字形变换.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [7.整数反转](./solutions/7.整数反转.js)                                                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [8.字符串转换整数 (atoi)](./solutions/8.字符串转换整数-atoi.js)                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [9.回文数](./solutions/9.回文数.js)                                                                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [10.正则表达式匹配](./solutions/10.正则表达式匹配.js)                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [11.盛最多水的容器](./solutions/11.盛最多水的容器.js)                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [12.整数转罗马数字](./solutions/12.整数转罗马数字.js)                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [13.罗马数字转整数](./solutions/13.罗马数字转整数.js)                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [14.最长公共前缀](./solutions/14.最长公共前缀.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [15.三数之和](./solutions/15.三数之和.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [16.最接近的三数之和](./solutions/16.最接近的三数之和.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [17.电话号码的字母组合](./solutions/17.电话号码的字母组合.js)                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [18.四数之和](./solutions/18.四数之和.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [19.删除链表的倒数第-n-个结点](./solutions/19.删除链表的倒数第-n-个结点.js)                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [20.有效的括号](./solutions/20.有效的括号.js)                                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [21.合并两个有序链表](./solutions/21.合并两个有序链表.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [22.括号生成](./solutions/22.括号生成.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [23.合并 k 个升序链表](./solutions/23.合并k个升序链表.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [24.两两交换链表中的节点](./solutions/24.两两交换链表中的节点.js)                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [27.移除元素](./solutions/27.移除元素.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [28.实现-str-str](./solutions/28.实现-str-str.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [31.下一个排列](./solutions/31.下一个排列.js)                                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [33.搜索旋转排序数组](./solutions/33.搜索旋转排序数组.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [34.在排序数组中查找元素的第一个和最后一个位置](./solutions/34.在排序数组中查找元素的第一个和最后一个位置.js) | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [35.搜索插入位置](./solutions/35.搜索插入位置.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [36.有效的数独](./solutions/36.有效的数独.js)                                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [38.外观数列](./solutions/38.外观数列.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [39.组合总和](./solutions/39.组合总和.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [40.组合总和-ii](./solutions/40.组合总和-ii.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [41.缺失的第一个正数](./solutions/41.缺失的第一个正数.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [42.接雨水](./solutions/42.接雨水.js)                                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [43.字符串相乘](./solutions/43.字符串相乘.js)                                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [44.通配符匹配](./solutions/44.通配符匹配.js)                                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [45.跳跃游戏-ii](./solutions/45.跳跃游戏-ii.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [46.全排列](./solutions/46.全排列.js)                                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [47.全排列-ii](./solutions/47.全排列-ii.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [48.旋转图像](./solutions/48.旋转图像.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [49.字母异位词分组](./solutions/49.字母异位词分组.js)                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [53.最大子数组和](./solutions/53.最大子数组和.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [54.螺旋矩阵](./solutions/54.螺旋矩阵.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [55.跳跃游戏](./solutions/55.跳跃游戏.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [56.合并区间](./solutions/56.合并区间.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [58.最后一个单词的长度](./solutions/58.最后一个单词的长度.js)                                                 | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [59.螺旋矩阵-ii](./solutions/59.螺旋矩阵-ii.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [66.加一](./solutions/66.加一.js)                                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [70.爬楼梯](./solutions/70.爬楼梯.js)                                                                         | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [83.删除排序链表中的重复元素](./solutions/83.删除排序链表中的重复元素.js)                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [86.分隔链表](./solutions/86.分隔链表.js)                                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [94.二叉树的中序遍历](./solutions/94.二叉树的中序遍历.js)                                                     | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [100.相同的树](./solutions/100.相同的树.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [101.对称二叉树](./solutions/101.对称二叉树.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [102.二叉树的层序遍历](./solutions/102.二叉树的层序遍历.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [103.二叉树的锯齿形层序遍历](./solutions/103.二叉树的锯齿形层序遍历.js)                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [104.二叉树的最大深度](./solutions/104.二叉树的最大深度.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [105.从前序与中序遍历序列构造二叉树](./solutions/105.从前序与中序遍历序列构造二叉树.js)                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [106.从中序与后序遍历序列构造二叉树](./solutions/106.从中序与后序遍历序列构造二叉树.js)                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [107.二叉树的层序遍历-ii](./solutions/107.二叉树的层序遍历-ii.js)                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [110.平衡二叉树](./solutions/110.平衡二叉树.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [111.二叉树的最小深度](./solutions/111.二叉树的最小深度.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [112.路径总和](./solutions/112.路径总和.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [113.路径总和-ii](./solutions/113.路径总和-ii.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [114.二叉树展开为链表](./solutions/114.二叉树展开为链表.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [116.填充每个节点的下一个右侧节点指针](./solutions/116.填充每个节点的下一个右侧节点指针.js)                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [124.二叉树中的最大路径和](./solutions/124.二叉树中的最大路径和.js)                                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [129.求根节点到叶节点数字之和](./solutions/129.求根节点到叶节点数字之和.js)                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [141.环形链表](./solutions/141.环形链表.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [142.环形链表-ii](./solutions/142.环形链表-ii.js)                                                             | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [144.二叉树的前序遍历](./solutions/144.二叉树的前序遍历.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [145.二叉树的后序遍历](./solutions/145.二叉树的后序遍历.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [160.相交链表](./solutions/160.相交链表.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [203.移除链表元素](./solutions/203.移除链表元素.js)                                                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [206.反转链表](./solutions/206.反转链表.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [222.完全二叉树的节点个数](./solutions/222.完全二叉树的节点个数.js)                                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [226.翻转二叉树](./solutions/226.翻转二叉树.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [257.二叉树的所有路径](./solutions/257.二叉树的所有路径.js)                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [292.nim-游戏](./solutions/292.nim-游戏.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [319.灯泡开关](./solutions/319.灯泡开关.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [322.零钱兑换](./solutions/322.零钱兑换.js)                                                                   | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [344.反转字符串](./solutions/344.反转字符串.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [345.反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [404.左叶子之和](./solutions/404.左叶子之和.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [415.字符串相加](./solutions/415.字符串相加.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [543.二叉树的直径](./solutions/543.二叉树的直径.js)                                                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [654.最大二叉树](./solutions/654.最大二叉树.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [876.链表的中间结点](./solutions/876.链表的中间结点.js)                                                       | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [889.根据前序和后序遍历构造二叉树](./solutions/889.根据前序和后序遍历构造二叉树.js)                           | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
+| [1103.分糖果-ii](./solutions/1103.分糖果-ii.js)                                                               | [题目](https://leetcode-cn.com/problems/two-sum/description/)                                        | Easy           |
