@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "leetcode solutions written in javascript.",
+  "main": "index.js",
+  "repository": "git@github.com:kaichii/leetcode-solutions.git",
+  "author": "kaiichiiiiii@gmail.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "markdown-magic": "^2.6.1"
+  },
+  "scripts": {
+    "gen": "node ./scripts/generate-readme.js"
+  }
+}

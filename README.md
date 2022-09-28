@@ -9,6 +9,10 @@
 
 <img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
 
+<!-- AUTO-GENERATED-CONTENT:START (SOLUTIONS) -->
+This will replace all the contents of inside the comment 
+<!-- AUTO-GENERATED-CONTENT:END -->
+
 | Solution                                                                                                         | Difficulty | Source                                                                                                            |
 | ---------------------------------------------------------------------------------------------------------------- | :--------: | ----------------------------------------------------------------------------------------------------------------- |
 | [【1】两数之和](./solutions/1.两数之和.js)                                                                       |     🟢      | [题目详情](https://leetcode-cn.com/problems/two-sum/description/)                                                 |
