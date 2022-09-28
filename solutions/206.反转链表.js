@@ -69,9 +69,7 @@
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  if (!head) return null;
-
-  if (head.next === null) return head;
+  if (head == null || head.next == null) return head;
 
   const last = reverseList(head.next);
 
