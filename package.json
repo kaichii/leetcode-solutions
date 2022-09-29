@@ -8,9 +8,10 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "markdown-magic": "^2.6.1"
+    "markdown-magic": "^2.6.1",
+    "markdown-table": "^3.0.2"
   },
   "scripts": {
-    "gen": "node ./scripts/generate-readme.js"
+    "doc": "node ./scripts/generate-readme.mjs"
   }
 }
