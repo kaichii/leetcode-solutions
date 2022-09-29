@@ -3,8 +3,6 @@ name: Generate Doc
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   gen:
@@ -22,7 +20,7 @@ jobs:
     - name: update readme
       uses: EndBug/add-and-commit@v9
       with:
-        message: update readme
+        message: Update README.md
         add: README.md
         committer_name: Github Actions
         committer_email: github-actions[bot]@users.noreply.github.com
