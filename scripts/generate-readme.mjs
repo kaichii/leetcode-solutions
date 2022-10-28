@@ -38,7 +38,7 @@ const config = {
             order,
             `[${title}](./solutions/${fileName})`,
             d,
-            `[题目详情](${url})`,
+            `[Leetcode 链接](${url})`,
           ]);
         });
 
