@@ -65,38 +65,42 @@
 var searchRange = function (nums, target) {
   if (!nums.length) return [-1, -1];
 
-  let ans = [-1, -1];
-
-  const fI = binarySearch(nums, target, true);
-
-  const lI = binarySearch(nums, target) - 1;
-
-  if (
-    fI <= lI &&
-    lI < nums.length &&
-    nums[lI] === target &&
-    nums[fI] === target
-  ) {
-    ans = [fI, lI];
-  }
-
-  return ans;
+  return [binarySearchL(nums, target), binarySearchR(nums, target)];
 };
 
-function binarySearch(nums, target, lower) {
+function binarySearchR(nums, target) {
   let left = 0,
-    right = nums.length - 1,
-    ans = nums.length;
+    right = nums.length - 1;
 
   while (left <= right) {
-    const mid = Math.floor((left + right) / 2);
-    if (nums[mid] > target || (lower && nums[mid] >= target)) {
+    const mid = ~~(left + (right - left) / 2);
+
+    if (nums[mid] > target) {
       right = mid - 1;
-      ans = mid;
-    } else {
+    } else if (nums[mid] <= target) {
       left = mid + 1;
     }
   }
-  return ans;
+
+  if (left - 1 < 0) return -1;
+
+  return nums[left - 1] == target ? left - 1 : -1;
+}
+
+function binarySearchL(nums, target) {
+  let left = 0,
+    right = nums.length - 1;
+
+  while (left <= right) {
+    const mid = ~~(left + (right - left) / 2);
+
+    if (nums[mid] >= target) {
+      right = mid - 1;
+    } else if (nums[mid] < target) {
+      left = mid + 1;
+    }
+  }
+
+  return nums[left] == target ? left : -1;
 }
 // @lc code=end
