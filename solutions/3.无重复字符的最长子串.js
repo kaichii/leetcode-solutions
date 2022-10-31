@@ -58,23 +58,48 @@
  * @param {string} s
  * @return {number}
  */
-var lengthOfLongestSubstring = function (s) {
-  let ans = (start = len = 0);
+// var lengthOfLongestSubstring = function (s) {
+//   let ans = (start = len = 0);
 
-  for (let i = 0; i < s.length; i++) {
-    const pI = s.indexOf(s[i], start);
-    // 有重复字符
-    if (pI >= 0 && pI < i) {
-      // start 移动到重复字符后 1 位
-      start = pI + 1;
-      len = i - pI;
-    } else {
-      // 没有重复字符
-      len++;
+//   for (let i = 0; i < s.length; i++) {
+//     const pI = s.indexOf(s[i], start);
+//     // 有重复字符
+//     if (pI >= 0 && pI < i) {
+//       // start 移动到重复字符后 1 位
+//       start = pI + 1;
+//       len = i - pI;
+//     } else {
+//       // 没有重复字符
+//       len++;
+//     }
+//     ans = Math.max(ans, len);
+//   }
+
+//   return ans;
+// };
+
+// 滑动窗口
+var lengthOfLongestSubstring = function (s) {
+  const window = {};
+
+  let left = 0,
+    right = 0,
+    ans = 0;
+
+  while (right < s.length) {
+    const c = s[right];
+    right++;
+    window[c] = window[c] ? window[c] + 1 : 1;
+
+    while (window[c] > 1) {
+      const d = s[left];
+      left++;
+      window[d]--;
     }
-    ans = Math.max(ans, len);
+    ans = Math.max(ans, right - left);
   }
 
   return ans;
 };
+
 // @lc code=end
