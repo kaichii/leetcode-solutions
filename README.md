@@ -107,6 +107,7 @@
 |  297  | [二叉树的序列化与反序列化](./solutions/297.二叉树的序列化与反序列化.js)                  |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/serialize-and-deserialize-binary-tree/description/)                       |
 |  303  | [区域和检索 - 数组不可变](./solutions/303.区域和检索-数组不可变.js)                  |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/range-sum-query-immutable/description/)                                   |
 |  304  | [二维区域和检索 - 矩阵不可变](./solutions/304.二维区域和检索-矩阵不可变.js)              |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/range-sum-query-2d-immutable/description/)                                |
+|  316  | [去除重复字母](./solutions/316.去除重复字母.js)                              |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/remove-duplicate-letters/description/)                                    |
 |  319  | [灯泡开关](./solutions/319.灯泡开关.js)                                  |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/bulb-switcher/description/)                                           |
 |  322  | [零钱兑换](./solutions/322.零钱兑换.js)                                  |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/coin-change/description/)                                                 |
 |  344  | [反转字符串](./solutions/344.反转字符串.js)                                |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/reverse-string/description/)                                              |
@@ -127,6 +128,7 @@
 |  870  | [优势洗牌](./solutions/870.优势洗牌.js)                                  |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/advantage-shuffle/description/)                                           |
 |  876  | [链表的中间结点](./solutions/876.链表的中间结点.js)                            |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/middle-of-the-linked-list/description/)                                   |
 |  889  | [根据前序和后序遍历构造二叉树](./solutions/889.根据前序和后序遍历构造二叉树.js)              |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/) |
+|  1081 | [不同字符的最小子序列](./solutions/1081.不同字符的最小子序列.js)                     |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/description/)                 |
 |  1103 | [分糖果 II](./solutions/1103.分糖果-ii.js)                             |     🟢     | [Leetcode 链接](https://leetcode-cn.com/problems/distribute-candies-to-people/description/)                            |
 |  1109 | [航班预订统计](./solutions/1109.航班预订统计.js)                             |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/corporate-flight-bookings/description/)                                   |
 <!-- AUTO-GENERATED-CONTENT:END -->
