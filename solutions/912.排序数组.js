@@ -88,10 +88,10 @@ function mergeSort(nums, lo, hi) {
   const mid = ~~(lo + (hi - lo) / 2);
 
   // 排序左边
-  sort(nums, lo, mid);
+  mergeSort(nums, lo, mid);
 
   // 排序右边
-  sort(nums, mid + 1, hi);
+  mergeSort(nums, mid + 1, hi);
 
   // 合并排序好的数组
   merge(nums, lo, mid, hi);
