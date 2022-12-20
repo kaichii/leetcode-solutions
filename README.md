@@ -7,7 +7,7 @@
   <img alt="Leetcode Ranking" src="https://leetcode-badge.haozibi.dev/v1cn/ranking/kaichi.svg"/>
 </p>
 
-<img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
+<!-- <img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/> -->
 
 <!-- AUTO-GENERATED-CONTENT:START (SOLUTIONS) -->
 | Order | Solution                                                         | Difficulty | Source                                                                                                               |
