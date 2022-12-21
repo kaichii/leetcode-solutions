@@ -71,16 +71,44 @@
  * @param {TreeNode} root
  * @return {number}
  */
+
+// O(n)
+// var countNodes = function (root) {
+//   const count = (r) => {
+//     if (r == null) return 0;
+
+//     let left = count(r.left);
+//     let right = count(r.right);
+
+//     return left + right + 1;
+//   };
+
+//   return count(root);
+// };
+
 var countNodes = function (root) {
-  const count = (r) => {
-    if (r == null) return 0;
+  let l = root,
+    r = root;
 
-    let left = count(r.left);
-    let right = count(r.right);
+  let lh = 0,
+    rh = 0;
 
-    return left + right + 1;
-  };
+  while (l !== null) {
+    lh++;
+    l = l.left;
+  }
 
-  return count(root);
+  while (r !== null) {
+    rh++;
+    r = r.right;
+  }
+
+  // 满二叉树，节点数 2^h - 1
+  if (lh == rh) {
+    return Math.pow(2, lh) - 1;
+  }
+
+  // 普通二叉树
+  return 1 + countNodes(root.left) + countNodes(root.right);
 };
 // @lc code=end
