@@ -7,7 +7,7 @@
   <img alt="Leetcode Ranking" src="https://leetcode-badge.haozibi.dev/v1cn/ranking/kaichi.svg"/>
 </p>
 
-<img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/>
+<!-- <img width="100%" src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/kaichi.svg"/> -->
 
 <!-- AUTO-GENERATED-CONTENT:START (SOLUTIONS) -->
 | Order | Solution                                                         | Difficulty | Source                                                                                                               |
@@ -105,6 +105,7 @@
 |  230  | [二叉搜索树中第K小的元素](./solutions/230.二叉搜索树中第k小的元素.js)                  |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/kth-smallest-element-in-a-bst/description/)                               |
 |  234  | [回文链表](./solutions/234.回文链表.js)                                  |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/palindrome-linked-list/description/)                                      |
 |  235  | [二叉搜索树的最近公共祖先](./solutions/235.二叉搜索树的最近公共祖先.js)                  |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-search-tree/description/)              |
+|  236  | [二叉树的最近公共祖先](./solutions/236.二叉树的最近公共祖先.js)                      |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/)                     |
 |  239  | [滑动窗口最大值](./solutions/239.滑动窗口最大值.js)                            |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/sliding-window-maximum/description/)                                      |
 |  257  | [二叉树的所有路径](./solutions/257.二叉树的所有路径.js)                          |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/binary-tree-paths/description/)                                           |
 |  263  | [丑数](./solutions/263.丑数.js)                                      |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/ugly-number/description/)                                                 |
