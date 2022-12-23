@@ -95,8 +95,8 @@ var findOrder = function (numCourses, prerequisites) {
       traverse(graph, v);
     }
 
-    // 后序位置
-    postOrder.push(s);
+    // 拓扑排序
+    postOrder.unshift(s);
 
     onPath[s] = false;
   }
@@ -108,7 +108,6 @@ var findOrder = function (numCourses, prerequisites) {
   // 有循环
   if (loop) return [];
 
-  // 拓扑排序
-  return postOrder.reverse();
+  return postOrder;
 };
 // @lc code=end
