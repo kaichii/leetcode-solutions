@@ -71,14 +71,14 @@ var isBipartite = function (graph) {
   const color = new Array(graph.length).fill(false),
     visited = [];
 
-  function traverse(graph, s) {
+  function dfs(graph, s) {
     visited[s] = true;
 
     for (const v of graph[s]) {
       if (!visited[v]) {
         // 没访问过，染色
         color[v] = !color[s];
-        traverse(graph, v);
+        dfs(graph, v);
       } else {
         // 访问过，判断颜色
         if (color[v] == color[s]) {
@@ -89,9 +89,35 @@ var isBipartite = function (graph) {
     }
   }
 
+  function bfs(graph, s) {
+    const queue = [];
+
+    visited[s] = true;
+
+    queue.push(s);
+
+    while (queue.length && valid) {
+      const v = queue.shift();
+
+      for (let w of graph[v]) {
+        if (!visited[w]) {
+          color[w] = !color[v];
+
+          visited[w] = true;
+          queue.push(w);
+        } else {
+          if (color[w] == color[v]) {
+            valid = false;
+            return;
+          }
+        }
+      }
+    }
+  }
+
   for (let i = 0; i < graph.length; i++) {
     if (!visited[i]) {
-      traverse(graph, i);
+      bfs(graph, i);
     }
   }
 
