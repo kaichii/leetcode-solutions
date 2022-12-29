@@ -136,12 +136,11 @@ function UF(n) {
 
   // 找到 x 的根节点
   function find(x) {
-    while (parent[x] != x) {
-      parent[x] = parent[parent[x]];
-      x = parent[x];
+    if (parent[x] != x) {
+      parent[x] = find(parent[x]);
     }
 
-    return x;
+    return parent[x];
   }
 
   // 连接 p,q
