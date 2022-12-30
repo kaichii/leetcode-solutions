@@ -154,4 +154,5 @@
 |  1081 | [不同字符的最小子序列](./solutions/1081.不同字符的最小子序列.js)                     |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/smallest-subsequence-of-distinct-characters/description/)                 |
 |  1103 | [分糖果 II](./solutions/1103.分糖果-ii.js)                             |     🟢     | [Leetcode 链接](https://leetcode-cn.com/problems/distribute-candies-to-people/description/)                            |
 |  1109 | [航班预订统计](./solutions/1109.航班预订统计.js)                             |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/corporate-flight-bookings/description/)                                   |
+|  1584 | [连接所有点的最小费用](./solutions/1584.连接所有点的最小费用.js)                     |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/min-cost-to-connect-all-points/description/)                              |
 <!-- AUTO-GENERATED-CONTENT:END -->
