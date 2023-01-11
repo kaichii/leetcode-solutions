@@ -1,4 +1,4 @@
-<h1 align="center">Leetcode 题解</h1>
+<h1 align="center">LeetCode 题解</h1>
 
 <p align="center">
   <img alt="Leetcode Solved" src="https://leetcode-badge.haozibi.dev/v1cn/solved/kaichi.svg" />
