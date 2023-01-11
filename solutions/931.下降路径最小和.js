@@ -65,6 +65,8 @@ var minFallingPathSum = function (matrix) {
   // dp[i][j] 表示下降到 matrix[i][j] 的最小和，初始值为 matrix[i][j]
   // const dp = Array.from({ length: m }, (_, i) => Array.from(matrix[i]));
 
+  // 不需要额外 dp, 原地修改 matrix
+
   for (let i = 1; i < m; i++) {
     for (let j = 0; j < n; j++) {
       if (j < 1) {
