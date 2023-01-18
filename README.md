@@ -168,4 +168,5 @@
 |  1584 | [连接所有点的最小费用](./solutions/1584.连接所有点的最小费用.js)                     |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/min-cost-to-connect-all-points/description/)                              |
 |  1631 | [最小体力消耗路径](./solutions/1631.最小体力消耗路径.js)                         |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/path-with-minimum-effort/description/)                                    |
 |  1814 | [统计一个数组中好对子的数目](./solutions/1814.统计一个数组中好对子的数目.js)               |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/count-nice-pairs-in-an-array/description/)                                |
+|  1825 | [求出 MK 平均值](./solutions/1825.求出-mk-平均值.js)                       |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/finding-mk-average/description/)                                          |
 <!-- AUTO-GENERATED-CONTENT:END -->
