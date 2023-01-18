@@ -63,15 +63,55 @@
  */
 var maxSubArray = function (nums) {
   // 这居然是简单题！
-  let prev = 0,
-    max = nums[0];
+  // let prev = 0,
+  //   max = nums[0];
 
-  for (const n of nums) {
-    prev = Math.max(prev + n, n);
+  // for (const n of nums) {
+  //   prev = Math.max(prev + n, n);
 
-    max = Math.max(prev, max);
+  //   max = Math.max(prev, max);
+  // }
+
+  // return max;
+
+  // 下面为分治法
+
+  /**
+   *
+   * 对于区间 [i, j]
+   *
+   * lSum: 以 i 为左边界的最大子数组和
+   * rSum: 以 j 为右边界的的最大子数组和
+   * iSum: [i, j] 的子元素和
+   * mSum: [i, j] 的最大子数组和
+   *
+   * m = (i + j) / 2
+   *
+   * 知道区间 [i, m] 和 [m + 1, j] 的 lSum 、rSum 、iSum 、mSum 如何求解 [i, j] 区间的呢？
+   *
+   * lSum = max(llSum, rlSum + liSum)
+   * rSum = max(rrSum, lrSum + riSum)
+   * iSum = liSum + riSum
+   * mSum = max(lmSum, rmSum, rlSum + lrSum)
+   */
+
+  function pushUp(arr, l, r) {
+    // base case
+    if (l == r) return [arr[l], arr[l], arr[l], arr[l]];
+
+    const mid = ~~(r + (l - r) / 2);
+
+    const [llSum, lrSum, liSum, lmSum] = pushUp(arr, l, mid);
+    const [rlSum, rrSum, riSum, rmSum] = pushUp(arr, mid + 1, r);
+
+    return [
+      Math.max(llSum, rlSum + liSum),
+      Math.max(rrSum, lrSum + riSum),
+      liSum + riSum,
+      Math.max(lmSum, rmSum, rlSum + lrSum),
+    ];
   }
 
-  return max;
+  return pushUp(nums, 0, nums.length - 1)[3];
 };
 // @lc code=end
