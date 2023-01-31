@@ -131,6 +131,7 @@
 |  344  | [反转字符串](./solutions/344.反转字符串.js)                                |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/reverse-string/description/)                                              |
 |  345  | [反转字符串中的元音字母](./solutions/345.反转字符串中的元音字母.js)                    |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/reverse-vowels-of-a-string/description/)                                  |
 |  354  | [俄罗斯套娃信封问题](./solutions/354.俄罗斯套娃信封问题.js)                        |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/russian-doll-envelopes/description/)                                      |
+|  374  | [猜数字大小](./solutions/374.猜数字大小.js)                                |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/guess-number-higher-or-lower/description/)                                |
 |  380  | [O(1) 时间插入、删除和获取随机元素](./solutions/380.o-1-时间插入、删除和获取随机元素.js)     |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/insert-delete-getrandom-o1/description/)                                  |
 |  404  | [左叶子之和](./solutions/404.左叶子之和.js)                                |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/sum-of-left-leaves/description/)                                          |
 |  415  | [字符串相加](./solutions/415.字符串相加.js)                                |     🟢     | [Leetcode 链接](https://leetcode-cn.com/problems/add-strings/description/)                                             |
@@ -170,4 +171,5 @@
 |  1631 | [最小体力消耗路径](./solutions/1631.最小体力消耗路径.js)                         |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/path-with-minimum-effort/description/)                                    |
 |  1814 | [统计一个数组中好对子的数目](./solutions/1814.统计一个数组中好对子的数目.js)               |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/count-nice-pairs-in-an-array/description/)                                |
 |  1825 | [求出 MK 平均值](./solutions/1825.求出-mk-平均值.js)                       |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/finding-mk-average/description/)                                          |
+|  2319 | [判断矩阵是否是一个 X 矩阵](./solutions/2319.判断矩阵是否是一个-x-矩阵.js)             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/description/)                                 |
 <!-- AUTO-GENERATED-CONTENT:END -->
