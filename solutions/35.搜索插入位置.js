@@ -60,22 +60,19 @@
  * @return {number}
  */
 var searchInsert = function (nums, target) {
-  // 34 题的子问题
-  let i = 0,
-    j = nums.length - 1,
-    ans = nums.length;
+  let left = 0,
+    right = nums.length;
 
-  while (i <= j) {
-    const mid = Math.floor((i + j) / 2);
+  while (left < right) {
+    const mid = ~~(left + ((right - left) >> 1));
 
-    if (target <= nums[mid]) {
-      j = mid - 1;
-      ans = mid;
+    if (nums[mid] >= target) {
+      right = mid;
     } else {
-      i = mid + 1;
+      left = mid + 1;
     }
   }
 
-  return ans;
+  return right;
 };
 // @lc code=end
