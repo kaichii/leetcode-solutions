@@ -155,6 +155,7 @@
 |  744  | [寻找比目标字母大的最小字母](./solutions/744.寻找比目标字母大的最小字母.js)                |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/)                    |
 |  785  | [判断二分图](./solutions/785.判断二分图.js)                                |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/is-graph-bipartite/description/)                                          |
 |  797  | [所有可能的路径](./solutions/797.所有可能的路径.js)                            |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/all-paths-from-source-to-target/description/)                             |
+|  852  | [山脉数组的峰顶索引](./solutions/852.山脉数组的峰顶索引.js)                        |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/peak-index-in-a-mountain-array/description/)                              |
 |  867  | [转置矩阵](./solutions/867.转置矩阵.js)                                  |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/transpose-matrix/description/)                                            |
 |  870  | [优势洗牌](./solutions/870.优势洗牌.js)                                  |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/advantage-shuffle/description/)                                           |
 |  876  | [链表的中间结点](./solutions/876.链表的中间结点.js)                            |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/middle-of-the-linked-list/description/)                                   |
@@ -172,4 +173,5 @@
 |  1814 | [统计一个数组中好对子的数目](./solutions/1814.统计一个数组中好对子的数目.js)               |     🟠     | [Leetcode 链接](https://leetcode.cn/problems/count-nice-pairs-in-an-array/description/)                                |
 |  1825 | [求出 MK 平均值](./solutions/1825.求出-mk-平均值.js)                       |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/finding-mk-average/description/)                                          |
 |  2319 | [判断矩阵是否是一个 X 矩阵](./solutions/2319.判断矩阵是否是一个-x-矩阵.js)             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/description/)                                 |
+|  2325 | [解密消息](./solutions/2325.解密消息.js)                                 |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/decode-the-message/description/)                                          |
 <!-- AUTO-GENERATED-CONTENT:END -->
