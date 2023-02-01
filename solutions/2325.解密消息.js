@@ -76,14 +76,14 @@
  * @return {string}
  */
 var decodeMessage = function (key, message) {
-  let dict = {},
-    p = 0;
+  let p = 97;
+  const map = new Array(26);
 
   for (let i = 0; i < key.length; i++) {
     if (key[i] !== ' ') {
-      if (key[i] in dict) continue;
+      if (map[key.charCodeAt(i) - 97]) continue;
 
-      dict[key[i]] = p++;
+      map[key.charCodeAt(i) - 97] = p++;
     }
   }
 
@@ -91,7 +91,7 @@ var decodeMessage = function (key, message) {
 
   for (let i = 0; i < message.length; i++) {
     if (message[i] !== ' ') {
-      res += String.fromCharCode(dict[message[i]] + 97);
+      res += String.fromCharCode(map[message.charCodeAt(i) - 97]);
     } else {
       res += message[i];
     }
