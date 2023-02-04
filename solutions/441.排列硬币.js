@@ -55,16 +55,18 @@ var arrangeCoins = function (n) {
    * i 行完整阶梯所需硬币数 = i(i + 1) / 2
    */
 
-  let ans = 0;
+  let i = 0,
+    j = n;
 
-  for (let i = 1; i <= n; i++) {
-    if (n >= (i * (i + 1)) / 2) {
-      ans++;
+  while (i < j) {
+    const mid = ~~(i + ((j - i) >> 1));
+    if (((mid + 1) * (mid + 2)) / 2 > n) {
+      j = mid;
     } else {
-      break;
+      i = mid + 1;
     }
   }
 
-  return ans;
+  return i;
 };
 // @lc code=end
