@@ -185,4 +185,5 @@
 |  1825 | [求出 MK 平均值](./solutions/1825.求出-mk-平均值.js)                       |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/finding-mk-average/description/)                                          |
 |  2319 | [判断矩阵是否是一个 X 矩阵](./solutions/2319.判断矩阵是否是一个-x-矩阵.js)             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/check-if-matrix-is-x-matrix/description/)                                 |
 |  2325 | [解密消息](./solutions/2325.解密消息.js)                                 |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/decode-the-message/description/)                                          |
+|  2331 | [计算布尔二叉树的值](./solutions/2331.计算布尔二叉树的值.js)                       |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/evaluate-boolean-binary-tree/description/)                                |
 <!-- AUTO-GENERATED-CONTENT:END -->
