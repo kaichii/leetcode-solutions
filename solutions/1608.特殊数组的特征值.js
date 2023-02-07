@@ -70,19 +70,11 @@
  * @return {number}
  */
 var specialArray = function (nums) {
-  let ans = 0;
+  nums.sort((a, b) => b - a);
 
-  while (ans <= nums.length) {
-    let count = 0;
-    for (let i = 0; i < nums.length; i++) {
-      if (nums[i] >= ans) {
-        count++;
-      }
-    }
-
-    if (count == ans) return ans;
-
-    ans++;
+  // 找到 >= target 的 index 值，如果 index == target 则 index 为特征值
+  for (let i = 1; i <= nums.length; i++) {
+    if (nums[i - 1] >= i && (nums[i] < i || i == nums.length)) return i;
   }
 
   return -1;
