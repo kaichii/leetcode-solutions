@@ -68,9 +68,6 @@
  * @return {number}
  */
 var search = function (nums, target) {
-  // 题目提示用二分查找求解
-  // return nums.findIndex((n) => n === target);
-
   if (!nums) return -1;
 
   if (nums.length === 1) nums[0] === target ? 0 : -1;
@@ -79,7 +76,7 @@ var search = function (nums, target) {
     j = nums.length - 1;
 
   while (i <= j) {
-    let mid = ~~((i + j) / 2);
+    let mid = ~~(i + (j - i) / 2);
 
     if (nums[mid] === target) return mid;
 
