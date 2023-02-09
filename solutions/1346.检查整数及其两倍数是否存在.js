@@ -63,8 +63,6 @@
  * @return {boolean}
  */
 var checkIfExist = function (arr) {
-  // let exist = false;
-
   for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       if (arr[j] == arr[i] << 1 || arr[i] == arr[j] << 1) {
