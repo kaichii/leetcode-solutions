@@ -103,20 +103,16 @@ var minimumMoves = function (grid) {
    * 2. 下：确保 [x + 2, y] 不为障碍物
    * 3. 逆时针旋转：确保 [x, y + 1], [x + 1, y + 1] 不为障碍物
    *
-   * 蛇尾要从 [0, 0] 移动到 [n - 1, n - 1] 有两种方式
-   *
-   * 1. 从 [n - 1, n - 2] 水平状态右移
-   * 2. 从 [n - 2, n - 1] 水平状态下移
-   *
+   * 蛇尾要从 [0, 0] 移动到 [n - 1, n - 1] 需要从 [n - 1, n - 2] 水平状态右移
    *
    * 假设已经用步骤最少移动到 [x, y]，下一步最优往哪走
    *
-   * 1. 水平状态到 [x, y]，取最小值即可
+   * 1. 水平状态到 [x, y]
    *  - 右: dp[0][x][y + 1] = dp[0][x][y] + 1
    *  - 下: dp[0][x + 1][y] = dp[0][x][y] + 1
    *  - 顺时针旋转: dp[1][x][y] = dp[0][x][y] + 1
    *
-   * 2. 竖直状态到 [x, y]，取最小值即可
+   * 2. 竖直状态到 [x, y]
    *  - 右: dp[1][x][y + 1] = dp[1][x][y] + 1
    *  - 下: dp[1][x + 1][y] = dp[1][x][y] + 1
    *  - 逆时针旋转: dp[0][x][y] = dp[1][x][y] + 1
@@ -124,18 +120,19 @@ var minimumMoves = function (grid) {
 
   const n = grid.length;
 
+  function isBlock(i, j) {
+    if (i >= n || j >= n) return true;
+    return grid[i][j] !== 0;
+  }
+
   const dp = Array.from({ length: 2 }, () =>
-    Array.from({ length: n }, () => new Array(n).fill(0))
+    Array.from({ length: n }, () => new Array(n).fill(-1))
   );
 
   // base case
   dp[0][0][0] = 0;
-  dp[1][0][0] = 0;
 
-  const q = [
-    [0, 0, 0],
-    [1, 0, 0],
-  ];
+  const q = [[0, 0, 0]];
 
   while (q.length) {
     const [cStats, x, y] = q.shift();
@@ -143,34 +140,42 @@ var minimumMoves = function (grid) {
     // 水平
     if (cStats == 0) {
       // 可以往右
-      if (y + 2 < n && grid[x][y + 2] !== 1) {
+      if (!isBlock(x, y + 2) && dp[cStats][x][y + 1] == -1) {
         dp[cStats][x][y + 1] = dp[cStats][x][y] + 1;
 
         q.push([cStats, x, y + 1]);
       }
 
       // 往下或顺时针旋转
-      if (grid[x + 1][y] !== 1 && grid[x + 1][y + 1] !== 1) {
-        dp[cStats][x + 1][y] = dp[cStats][x][y] + 1;
-        dp[1 - cStats][x][y] = dp[cStats][x][y] + 1;
+      if (!isBlock(x + 1, y) && !isBlock(x + 1, y + 1)) {
+        if (dp[cStats][x + 1][y] == -1) {
+          dp[cStats][x + 1][y] = dp[cStats][x][y] + 1;
+          q.push([cStats, x + 1, y]);
+        }
 
-        q.push([cStats, x + 1, y]);
-        q.push([1 - cStats, x, y]);
+        if (dp[1 - cStats][x][y] == -1) {
+          dp[1 - cStats][x][y] = dp[cStats][x][y] + 1;
+          q.push([1 - cStats, x, y]);
+        }
       }
     }
     // 竖直
     else {
       // 可以往右或逆时针旋转
-      if (grid[x][y + 1] !== 1 && grid[x + 1][y + 1] !== 1) {
-        dp[cStats][x][y + 1] = dp[cStats][x][y] + 1;
-        dp[1 - cStats][x][y] = dp[cStats][x][y] + 1;
+      if (!isBlock(x, y + 1) && !isBlock(x + 1, y + 1)) {
+        if (dp[cStats][x][y + 1] == -1) {
+          dp[cStats][x][y + 1] = dp[cStats][x][y] + 1;
+          q.push([cStats, x, y + 1]);
+        }
 
-        q.push([cStats, x, y + 1]);
-        q.push([1 - cStats, x, y]);
+        if (dp[1 - cStats][x][y] == -1) {
+          dp[1 - cStats][x][y] = dp[cStats][x][y] + 1;
+          q.push([1 - cStats, x, y]);
+        }
       }
 
       // 往下
-      if (x + 2 < n && grid[x + 2][y] !== 1) {
+      if (!isBlock(x + 2, y) && dp[cStats][x + 1][y] == -1) {
         dp[cStats][x + 1][y] = dp[cStats][x][y] + 1;
 
         q.push([cStats, x + 1, y]);
@@ -178,15 +183,7 @@ var minimumMoves = function (grid) {
     }
   }
 
-  /**
-   *
-   * 蛇尾要从 [0, 0] 移动到 [n - 1, n - 1] 有两种方式
-   *
-   * 1. 从 [n - 1, n - 2] 水平状态右移
-   * 2. 从 [n - 2, n - 1] 水平状态下移
-   */
-  console.log(dp, dp[0][n - 1][n - 2], dp[0][n - 2][n - 1]);
-
-  return 11;
+  // 蛇尾要从 [0, 0] 移动到 [n - 1, n - 1] 需要从 [n - 1, n - 2] 水平状态右移
+  return dp[0][n - 1][n - 2];
 };
 // @lc code=end
