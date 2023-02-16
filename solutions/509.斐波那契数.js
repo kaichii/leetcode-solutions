@@ -64,22 +64,8 @@
  * @return {number}
  */
 var fib = function (n) {
-  if (n == 0) return 0;
-  if (n == 1) return 1;
-
-  let n1 = 1,
-    n2 = 0;
-
-  let ans = 0;
-
-  while (n > 1) {
-    ans = n1 + n2;
-
-    n2 = n1;
-    n1 = ans;
-    n--;
-  }
-
-  return ans;
+  const sqrt5 = Math.sqrt(5);
+  const fibN = Math.pow((1 + sqrt5) / 2, n) - Math.pow((1 - sqrt5) / 2, n);
+  return Math.round(fibN / sqrt5);
 };
 // @lc code=end
