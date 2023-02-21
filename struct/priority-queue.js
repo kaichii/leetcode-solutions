@@ -3,7 +3,7 @@
 /**
  * 最大堆
  */
-function max() {
+function Max() {
   const arr = [];
   this.size = 0;
 
@@ -72,6 +72,74 @@ function max() {
   };
 }
 
-module.exports = {
-  max,
-};
+/**
+ * 最小堆
+ */
+function Min() {
+  const arr = [];
+  this.size = 0;
+
+  function parent(i) {
+    return ~~(i >> 1);
+  }
+
+  function left(i) {
+    return i << 1;
+  }
+
+  function right(i) {
+    return (i << 1) + 1;
+  }
+
+  function swap(i, j) {
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+
+  function less(i, j) {
+    return arr[i] < arr[j];
+  }
+
+  function swim(index) {
+    while (index > 1 && less(index, parent(index))) {
+      swap(index, parent(index));
+      index = parent(index);
+    }
+  }
+
+  sink = (index) => {
+    while (left(index) <= this.size) {
+      let min = left(index);
+
+      if (right(index) <= this.size && less(right(index), min))
+        min = right(index);
+
+      if (less(index, min)) break;
+
+      swap(index, min);
+      index = min;
+    }
+  };
+
+  this.insert = (val) => {
+    this.size++;
+
+    arr[this.size] = val;
+    swim(this.size);
+  };
+
+  this.min = () => {
+    if (this.size) return arr[1];
+  };
+
+  this.delMin = () => {
+    swap(1, this.size);
+
+    const min = arr.pop();
+
+    this.size--;
+
+    sink(1);
+
+    return min;
+  };
+}
