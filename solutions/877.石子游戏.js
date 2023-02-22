@@ -64,6 +64,19 @@
  */
 var stoneGame = function (piles) {
   // Alice 每次都取石子数量较多的
-  return true;
+  // return true;
+  const dp = new Array(piles.length).fill(0);
+
+  for (let i = 0; i < piles.length; i++) {
+    dp[i] = piles[i];
+  }
+
+  for (let i = piles.length - 2; i >= 0; i--) {
+    for (let j = i + 1; j < piles.length; j++) {
+      dp[j] = Math.max(piles[i] - dp[j], piles[j] - dp[j - 1]);
+    }
+  }
+
+  return dp[piles.length - 1] > 0;
 };
 // @lc code=end
