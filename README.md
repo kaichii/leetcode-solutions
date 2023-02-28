@@ -56,6 +56,7 @@
 |   47  | [全排列 II](./solutions/47.全排列-ii.js)                                 |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/permutations-ii/description/)                                                |
 |   48  | [旋转图像](./solutions/48.旋转图像.js)                                     |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/rotate-image/description/)                                                   |
 |   49  | [字母异位词分组](./solutions/49.字母异位词分组.js)                               |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/group-anagrams/description/)                                                 |
+|   51  | [N 皇后](./solutions/51.n-皇后.js)                                     |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/n-queens/description/)                                                           |
 |   53  | [最大子数组和](./solutions/53.最大子数组和.js)                                 |     🟢     | [Leetcode 链接](https://leetcode-cn.com/problems/maximum-subarray/description/)                                               |
 |   54  | [螺旋矩阵](./solutions/54.螺旋矩阵.js)                                     |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/spiral-matrix/description/)                                                  |
 |   55  | [跳跃游戏](./solutions/55.跳跃游戏.js)                                     |     🟠     | [Leetcode 链接](https://leetcode-cn.com/problems/jump-game/description/)                                                      |
@@ -234,4 +235,5 @@
 |  2341 | [数组能形成多少数对](./solutions/2341.数组能形成多少数对.js)                         |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/maximum-number-of-pairs-in-array/description/)                                   |
 |  2347 | [最好的扑克手牌](./solutions/2347.最好的扑克手牌.js)                             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/best-poker-hand/description/)                                                    |
 |  2357 | [使数组中所有元素都等于零](./solutions/2357.使数组中所有元素都等于零.js)                   |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/make-array-zero-by-subtracting-equal-amounts/description/)                       |
+|  2363 | [合并相似的物品](./solutions/2363.合并相似的物品.js)                             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/merge-similar-items/description/)                                                |
 <!-- AUTO-GENERATED-CONTENT:END -->
