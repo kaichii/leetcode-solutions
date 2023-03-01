@@ -239,4 +239,5 @@
 |  2347 | [最好的扑克手牌](./solutions/2347.最好的扑克手牌.js)                             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/best-poker-hand/description/)                                                    |
 |  2357 | [使数组中所有元素都等于零](./solutions/2357.使数组中所有元素都等于零.js)                   |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/make-array-zero-by-subtracting-equal-amounts/description/)                       |
 |  2363 | [合并相似的物品](./solutions/2363.合并相似的物品.js)                             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/merge-similar-items/description/)                                                |
+|  2373 | [矩阵中的局部最大值](./solutions/2373.矩阵中的局部最大值.js)                         |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/largest-local-values-in-a-matrix/description/)                                   |
 <!-- AUTO-GENERATED-CONTENT:END -->
