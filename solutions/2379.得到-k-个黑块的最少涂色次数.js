@@ -69,28 +69,19 @@ var minimumRecolors = function (blocks, k) {
   let cb = 0,
     cw = 0;
 
-  for (let j = 0; j < k; j++) {
-    if (blocks[j] === 'B') {
-      cb++;
-    } else {
-      cw++;
-    }
+  for (let i = 0; i < k; i++) {
+    cb += blocks[i] === 'B' ? 1 : 0;
+    cw += blocks[i] === 'W' ? 1 : 0;
   }
 
   let res = cw;
 
   for (let i = k; i < blocks.length; i++) {
-    if (blocks[i] === 'B') {
-      cb++;
-    } else {
-      cw++;
-    }
+    cb += blocks[i] === 'B' ? 1 : 0;
+    cw += blocks[i] === 'W' ? 1 : 0;
 
-    if (blocks[i - k] === 'B') {
-      cb--;
-    } else {
-      cw--;
-    }
+    cb -= blocks[i - k] === 'B' ? 1 : 0;
+    cw -= blocks[i - k] === 'W' ? 1 : 0;
 
     res = Math.min(res, cw);
   }
