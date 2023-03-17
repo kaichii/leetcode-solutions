@@ -253,4 +253,6 @@
 |  2373 | [矩阵中的局部最大值](./solutions/2373.矩阵中的局部最大值.js)                         |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/largest-local-values-in-a-matrix/description/)                                   |
 |  2379 | [得到 K 个黑块的最少涂色次数](./solutions/2379.得到-k-个黑块的最少涂色次数.js)             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/minimum-recolors-to-get-k-consecutive-black-blocks/description/)                 |
 |  2383 | [赢得比赛需要的最少训练时长](./solutions/2383.赢得比赛需要的最少训练时长.js)                 |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition/description/)                     |
+|  2389 | [和有限的最长子序列](./solutions/2389.和有限的最长子序列.js)                         |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/longest-subsequence-with-limited-sum/description/)                               |
+|  2488 | [统计中位数为 K 的子数组](./solutions/2488.统计中位数为-k-的子数组.js)                 |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/count-subarrays-with-median-k/description/)                                      |
 <!-- AUTO-GENERATED-CONTENT:END -->
