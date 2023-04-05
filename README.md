@@ -269,6 +269,7 @@
 |  2383 | [赢得比赛需要的最少训练时长](./solutions/2383.赢得比赛需要的最少训练时长.js)                 |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/minimum-hours-of-training-to-win-a-competition/description/)                     |
 |  2389 | [和有限的最长子序列](./solutions/2389.和有限的最长子序列.js)                         |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/longest-subsequence-with-limited-sum/description/)                               |
 |  2395 | [和相等的子数组](./solutions/2395.和相等的子数组.js)                             |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/find-subarrays-with-equal-sum/description/)                                      |
+|  2427 | [公因子的数目](./solutions/2427.公因子的数目.js)                               |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/number-of-common-factors/description/)                                           |
 |  2469 | [温度转换](./solutions/2469.温度转换.js)                                   |     🟢     | [Leetcode 链接](https://leetcode.cn/problems/convert-the-temperature/description/)                                            |
 |  2488 | [统计中位数为 K 的子数组](./solutions/2488.统计中位数为-k-的子数组.js)                 |     🔴     | [Leetcode 链接](https://leetcode.cn/problems/count-subarrays-with-median-k/description/)                                      |
 <!-- AUTO-GENERATED-CONTENT:END -->
