@@ -22,5 +22,6 @@ jobs:
       with:
         message: Update README.md
         add: README.md
+        default_author: github_actions
         committer_name: Github Actions
         committer_email: github-actions[bot]@users.noreply.github.com
